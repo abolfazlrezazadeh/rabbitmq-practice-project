@@ -8,8 +8,9 @@ async function receiveFromProducer() {
   channel.consume(queueName, (message) => {
     console.log(`${index} : `, message.content.toString());
     index++;
-  },{noAck : true});
+    channel.ack(message)
   // noAck = confirm requests that received and delete them from queue
+})
 }
 
 receiveFromProducer();
