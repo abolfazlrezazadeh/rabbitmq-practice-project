@@ -1,22 +1,14 @@
 {
-  "name": "rabbitmq-practice-project",
+  "name": "rabbitmq-direct-exchange",
   "version": "1.0.0",
-  "description": "Small practice project rabbitmq and AMQP",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/abolfazlrezazadeh/rabbitmq-practice-project.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/abolfazlrezazadeh/rabbitmq-practice-project/issues"
-  },
-  "homepage": "https://github.com/abolfazlrezazadeh/rabbitmq-practice-project#readme",
   "dependencies": {
     "amqplib": "^0.10.3"
   }
